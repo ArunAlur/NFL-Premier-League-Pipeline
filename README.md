@@ -1,6 +1,3 @@
-<p align="center">
-<img height="150" width="150" src="https://cdn.simpleicons.org/nfl/gray"/>
-</p>
 
 <h1 align="center">NFL Premier League Pipeline</h1>
 
