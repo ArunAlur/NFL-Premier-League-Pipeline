@@ -5,7 +5,6 @@
 <h1 align="center">NFL Premier League Pipeline</h1>
 
 <p align="center">
-    <img src="https://img.shields.io/github/actions/workflow/status/ArunAlur/NFL-Premier-League-Pipeline/ci_streamlit.yaml?style=flat-square&logo=github&label=CI%2FCD"/>
     <a href="https://github.com/ArunAlur/NFL-Premier-League-Pipeline/blob/main/CHANGELOG.md">
         <img src="https://img.shields.io/badge/Dashboard_Version-2.17.1-FF4B4B?style=flat-square&logo=streamlit"/>
     </a>
