@@ -1,0 +1,46 @@
+###
+### A complete description of a Prefect Deployment for flow 'stocks'
+###
+name: stocks
+description: null
+version: d0781db7af4df7adb6a04236cfa5bb1c
+# The work queue that will handle this deployment's runs
+work_queue_name: premier-league-work-queue
+work_pool_name: premier-league-work-pool
+tags: []
+parameters: {}
+schedule: null
+schedules: []
+is_schedule_active: null
+infra_overrides: {}
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: stocks
+manifest_path: null
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  _block_document_id: d00fda5e-d9ad-4e29-9186-3a82f6c7387b
+  _block_document_name: anonymous-a7b04bd9-9549-458a-9263-3adc7756e42e
+  _is_anonymous: true
+  block_type_slug: process
+  _block_type_slug: process
+storage: null
+path: /home/pythonsanchez/premier-league
+entrypoint: prefect/flows.py:stocks
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties: {}
+  required: null
+  definitions: null
+timestamp: '2024-03-19T00:55:12.070787+00:00'
+triggers: []
+enforce_parameter_schema: null

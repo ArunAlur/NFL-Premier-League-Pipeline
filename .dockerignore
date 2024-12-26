@@ -1,0 +1,35 @@
+# Files
+**.json
+**.DS_Store
+.streamlit/
+.gitignore
+.pylintrc
+README.md
+
+# Folders
+testing/
+.github/
+api/
+etl/
+
+# Terraform
+terraform/
+
+# Cache
+.mypy_cache/
+.ruff_cache/
+components/__pycache__/
+
+# Byte-compiled / optimized / DLL files
+**/__pycache__
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/

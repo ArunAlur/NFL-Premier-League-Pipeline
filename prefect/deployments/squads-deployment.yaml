@@ -1,0 +1,46 @@
+###
+### A complete description of a Prefect Deployment for flow 'squads'
+###
+name: squads
+description: null
+version: d0781db7af4df7adb6a04236cfa5bb1c
+# The work queue that will handle this deployment's runs
+work_queue_name: premier-league-work-queue
+work_pool_name: premier-league-work-pool
+tags: []
+parameters: {}
+schedule: null
+schedules: []
+is_schedule_active: null
+infra_overrides: {}
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: squads
+manifest_path: null
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  _block_document_id: 9eb2d8f7-7ef9-4f30-bf97-a8217320d4bc
+  _block_document_name: anonymous-67d88fb7-ee19-4c67-83b0-a0c4de72b28e
+  _is_anonymous: true
+  block_type_slug: process
+  _block_type_slug: process
+storage: null
+path: /home/pythonsanchez/premier-league
+entrypoint: prefect/flows.py:squads
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties: {}
+  required: null
+  definitions: null
+timestamp: '2024-03-19T00:55:19.207112+00:00'
+triggers: []
+enforce_parameter_schema: null
